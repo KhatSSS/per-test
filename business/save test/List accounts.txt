@@ -1,0 +1,169 @@
+emailBS, passwordBS
+khat.phan@yobmail.com, Test!234
+bao.nguyen@yopmail.com, Test!234
+per.128@yopmail.com
+-----
+
+13/04/2021
+
+* email: 	per.100000 -> per.100051@yopmail.com
+
+	per.68603327 -> per.68603442@yopmail.com
+
+			-> per.68603356@acb.com
+
+26/04:
+	Test T2: per.68603443@yopmail.com -> per.68603452@yopmail.com
+	Test T1: per.68603443@yopmail.com -> per.68603452@yopmail.com
+
+Test Giap:
+	1200 threads
+	debit card: 4111111111111111
+
+//	per.68603453@yopmail.com -> per.68604652@yopmail.com
+	per.68604653@yopmail.com -> per.68605852@yopmail.com (completed)
+	per.68605853@yopmail.com -> per.68606152@yopmail.com (not yet)
+	per.68606150@yopmail.com
+---------
+
+* parameters:
+	- user_uuid (ST05-020-POST-auth/oauth/token) = customerUUID (ST05-040-GET-applicants/email)
+	- latestApplicationId (ST05-040-GET-applicants/email)
+	- 
+ANH Đại/Tín: 	API of https://csc-qa-customer-ui.business.creditstrong.com
+
+
+--------
+https://successsoftware.global/
+
+
+x-lead-uuid: 37304281-1f1b-403c-ab69-c628215109a6
+
+
+industryUuid: "7023c458-5cc6-4c1b-b151-d1c797436843"
+
+
+- STEP 12. Business Address: 
+	addressLine1: "1789 FIRESTONE BLVD"
+addressLine2: "123"
+city: "LOS ANGELES"
+state: "CA"
+zipCode: "90001"
+applicationUuid: "54ffb173-04a0-4acd-b859-fbcba74727d1"
+
+
+/eProtect/paypage?paypageId=nSA8FpvsnUNw3Hn7&reportGroup=ACBGrp1&id=5hi8k4hkhn49grsup0nhzoram&orderId=nib36psjfzseykrk0c&encryptedAccount=g7yIY7uRe1rXueHPny%2BSKO0Psy2WmsvfKGdoIHBfbbyXZTiztGWNup%2BxzogDoPlRf%2Fnp7Ggs1IKedMWHOnhcJteUZfTBTsAXOQAw1oiNeMFq9xuHr1FbIOQpO59%2BEwoC77yfY8p%2FT1BCmGaVzow4UEqZ7Ee5kse6X9x5nCT3KNkSKjRm%2FNM%2FyeyuqNx0qE%2BlCSj6MRS1LcSYzKHntBBGgTO1XPvuEYT87Ro17Eu9qg4kCg5dxq3SCWKIuXxcwuvlw8RYljf4y8nbCofpyTw10eSHL%2F2ymdzPbkJXmKzq8nvbthMwleJd%2F3QWCFd5HlDidW%2BL2SXKu88tMG4r0bl7bQ%3D%3D&pciNonSensitive=false&encryptedCvv=jM4mM59diM2QVBXjvKtYGPcOm5mye6EpiUfDGReXrpiiHTwhRbUqosBFDSzKYBumaWaNHKuJKRHFFNvuGMG1xz4R%2BgTT%2Bp8jin6T%2B5dQBSP11RvFde369VQfp1OsoAerfYAlA0XwtONSDstwFm5PDPjmJ3QwWdlDdSUn%2BqEcwvsAp0FVAFeE7xVeqGaJZdIP8gH4haXmb%2Biegvdi4uEHFj0wv8vvma7fv%2BhlZNyKQshmC4mkXPA5hr9ez0FIoIxgEqwckat0wrS211x7NsmZGgilTFBgm312e3KJP9zynba0uF31GWhKwjF1AxZSgo%2BtFSsiUFsAUxS%2Fri2R292vHQ%3D%3D&publicKeyId=1&requestType=eProtect&targetServer=primary&jsoncallback=jsonp1617948948696
+
+/eProtect/paypage?paypageId=nSA8FpvsnUNw3Hn7&reportGroup=ACBGrp1&id=s7w1y1j42h29jej9l7y34&orderId=e2vw98i7ywkfnkyn4i&encryptedAccount=pKwjQBKyUGgqAgcfR53lZvAi%2B8K%2FhR03A1GpxjaVfHs3THxKN%2F5ra8ddZHu%2BzTNyCrRM8VGApOq8mqgVw76uhTz%2FbSB5Ul3jE%2BlC1qD%2BLesjMhusHh0riyrLuRpO0m5dP9bMeDBsurwzdGevObn8mTX1hUh%2BdyX578xRdP%2FWqd7md4j8QN4TyGIWy3vScyZmhLGbrGQL8XgVlU51ObNsdTKqY9aVArLd5SH8S3AejdNeyP9V6UJnPL5Iv6Je5SNjOAUt%2BGMgF0Re6MoPex5BWu4EsIm3EfemroYpII5lQO9KAiLmntoE7oncxKs2mBGSUaRlZUPxQNjSIRheToJdJw%3D%3D&pciNonSensitive=false&encryptedCvv=Nw%2FUIsT2LvB%2FGcT7tpLpn0zkHYGwKxChDrdX5rM1sFdMJpQ0LRRyHu7002tJZsMdtKTmvBGZFh2difNyw5%2F1zc%2BX2grZjv%2BYN9fHYj7KtpHYVK%2BKCpnLhTtJGdMWAyWQ3p3%2BwwW3ElqCVG4g3a6Zik7fWvIfO5s8pJQDQ4o%2B1Qk2vJMJCcTdNIOumsrbXuqNfIztOseTgriXLhGe6VU1okV4sD%2FwgaPtJ2qnuoyTB4OINoABuBUdULmudsUmER8p%2BhpRPeGU0rHjmVRRjwRi8goWiQEMlH5QrD6phflTuGtw4YKxY6Qhbtc0jfkL8OhJlmMBIkeMPowB4Mqpq4wbTA%3D%3D&publicKeyId=1&requestType=eProtect&targetServer=primary&jsoncallback=jsonp1601360900083
+
+/eProtect/paypage?paypageId=nSA8FpvsnUNw3Hn7&reportGroup=ACBGrp1&id=9pdx7wix86ge93z9d12ozrxd4&orderId=rk1yyk2mf8i198ny7b&encryptedAccount=PDcfxvoPn3t9Xo5EBVEhBwbKB15oxo9wUcm8RKPrlfhRYGfM1My4br3HJ%2FKe4DD6xBYbXa%2FYErV5qjCtOtRZD8hKQ%2B%2FrPIWWaBVuXQrtOW3OJlQ%2BQUS5kHagmMO5E56EkMQu7yeRHbocU6UXz%2B1szVv4auWMO3juow7PUxu4us6jwFnGOZes0i6jHNWj3KEBUACzUui7%2FXC2kG%2BqWJ%2B9TSY11ZdIJlGYO3rRY5YrsCxXNqVFttp15MOBMzD8uvV3H%2FP4qVPlY4j9JBsEYYJ09iy2VQIX6sOnPcKp3BsPbkHTrY40bTs8WD5aerfWVwz%2Fs0Vesav9WyBJwfhA%2BUibqw%3D%3D&pciNonSensitive=false&encryptedCvv=KumDajq2Cqv8Q3jGVUjRy9aO0CwkjGMtrWokg4CCkjypXa3UZhcBHQ7%2FxA3yJ9MKgmDX4zbKTR6f502eGp%2FJDsV%2FB0wKsK90p05u6A4IPulN82EA4QN9t6aCiqzF1HaXpNcOlSv2k5KPtiy23KZnb60Ak7LBEtaeA%2B6%2Bz5O1%2BXRW%2FvVbq8kxjWlHJFoGMUtAz%2FmLEp%2FDsqkGZd8nnTb4OOEce4N7kZ04KuNf%2Baev9NOCHwAECYlJsYVEczyTBIH6lrG%2BOKqRO7GkhX3srY1OC1QLFcdj%2BuwbAz%2BZTl3EzV%2FAMjmVk2w4gpmB1Kn2A5JRwtrzD6eRVuMKL%2BR4iOe%2F6A%3D%3D&publicKeyId=1&requestType=eProtect&targetServer=primary&jsoncallback=jsonp1619084363100
+
+
+* 124
+
+{"access_token":"(.+?)"		| {"access_token":"(.+?)"
+
+
+---------------------
+
+aff_click_id: null
+aff_sub: null
+aff_sub2: null
+aff_sub3: null
+aff_sub4: null
+aff_sub5: null
+affiliate_id: null
+alloyEntityToken: null
+applicationStatus: "SUCCESS"
+applicationStep: null
+birthDate: "1990-11-19"
+checkedBypassSmsVerification: false
+commercialCurrentStep: "COMMERCIAL_SIGN_CONTRACT"
+commercialNextStep: "CSC_CUSTOMER_DASHBOARD"
+createdTime: 1619058478769
+customerId: 1455
+customerUUID: "10510dfc-d09d-4e53-8a09-b162955c99f7"
+email: "per.68603440@yopmail.com"
+emailVerified: false
+firstName: "Performance"
+id: 1452
+last4Ssn: "2035"
+lastApplicationStepChangeTime: 1619058673728
+lastName: "Testing"
+lastTouchStep: null
+latestApplicationCurrentStep: "CUSTOMER_DASHBOARD"
+latestApplicationId: 1451
+latestApplicationUUID: "d11f31b1-fdc8-4b5e-b37d-52bf0b0cf902"
+listApplication: [{accountNumber: "GEDPRQ107", uuid: "d11f31b1-fdc8-4b5e-b37d-52bf0b0cf902",…}]
+middleInitial: null
+mobilePhoneNumber: "296-838-2035"
+mobilePhoneNumberVerified: true
+newEmailAddress: null
+offer_id: null
+password: null
+previousAppExpiredOrDeclined: false
+skipMobilePhoneNumberValidation: false
+source: null
+ssn: "296-48-2035"
+submitAgreed: false
+suffix: null
+totalApps: 1
+transaction_id: null
+utm_campaign: null
+utm_content: null
+utm_medium: null
+utm_source: null
+utm_term: null
+uuid: "75de0792-486e-48db-8582-8428586fcf04"
+verificationCode: "548326"
+zoneBySsn: null
+
+-----------------------------
+29/04/2021
+
+- LG-MAKE-PAYMENT-100-GET-account/transactions
+
+response: 
+
+{content: [,…],…}
+content: [,…]
+0: {amount: -118.74, effectiveDate: "2021-04-26", fees: -3.74, loanAccountCurrentBalanceBefore: 10000,…}
+amount: -118.74
+effectiveDate: "2021-04-26"
+fees: -3.74
+interest: -7.43
+loanAccountCurrentBalanceAfter: 9892.43
+loanAccountCurrentBalanceBefore: 10000
+paymentMethodLabel: "1001"
+principal: -107.57
+routingNumber: null
+savingsCurrentBalanceAfter: 0
+transactionDate: "2021-04-26T07:53:56.651+00:00"
+transactionType: "Loan Payment"
+transactionTypeNumber: 5
+vantivRegisterToken: "2501298438121239"
+1: {amount: 10000, effectiveDate: "2021-04-22", fees: -2.99, loanAccountCurrentBalanceBefore: 0,…}
+amount: 10000
+effectiveDate: "2021-04-22"
+fees: -2.99
+interest: 0
+loanAccountCurrentBalanceAfter: 10000
+loanAccountCurrentBalanceBefore: 0
+paymentMethodLabel: null
+principal: 10000
+routingNumber: null
+savingsCurrentBalanceAfter: 0
+transactionDate: "2021-04-22T02:31:12.289+00:00"
+transactionType: "Loan Principal - opening advance"
+transactionTypeNumber: 23
+vantivRegisterToken: null
+empty: false
+first: true
+last: true
+number: 0
+numberOfElements: 2
+pageable: {sort: {sorted: false, unsorted: true, empty: true}, pageNumber: 0, pageSize: 9999, offset: 0,…}
+size: 9999
+sort: {sorted: false, unsorted: true, empty: true}
+totalElements: 2
+totalPages: 1
