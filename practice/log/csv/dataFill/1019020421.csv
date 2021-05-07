@@ -1,0 +1,49 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1617333508691,880,PROF - VNE - Test 02,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1617333509574,310,PROF - VNE - Random main action,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1617333510055,1167,VNE-GET-Home,200,OK,Thread Group 1-1,text,true,,39630,594,1,1,https://vnexpress.net/,1155,0,1106
+1617333511227,36,VNE-GET-thethao,200,OK,Thread Group 1-1,text,true,,38494,602,1,1,https://vnexpress.net/the-thao,31,0,0
+1617333511264,26,VNE-GET-bongda,200,OK,Thread Group 1-1,text,true,,34723,643,1,1,https://vnexpress.net/bong-da,22,0,0
+1617333514695,1,PROF - VNE - Test 02,200,OK,Thread Group 1-2,text,true,,0,0,1,1,null,0,0,0
+1617333514697,2,PROF - VNE - Random main action,200,OK,Thread Group 1-2,text,true,,0,0,1,1,null,0,0,0
+1617333514702,101,VNE-GET-Home,200,OK,Thread Group 1-2,text,true,,39628,594,1,1,https://vnexpress.net/,77,0,54
+1617333514804,28,VNE-GET-thethao,200,OK,Thread Group 1-2,text,true,,38492,602,1,1,https://vnexpress.net/the-thao,23,0,0
+1617333514833,25,VNE-GET-bongda,200,OK,Thread Group 1-2,text,true,,34722,643,1,1,https://vnexpress.net/bong-da,22,0,0
+1617333520675,1,PROF - VNE - Test 02,200,OK,Thread Group 1-3,text,true,,0,0,1,1,null,0,0,0
+1617333520676,1,PROF - VNE - Random main action,200,OK,Thread Group 1-3,text,true,,0,0,1,1,null,0,0,0
+1617333520678,65,VNE-GET-Home,200,OK,Thread Group 1-3,text,true,,39628,594,1,1,https://vnexpress.net/,59,0,29
+1617333520743,35,VNE-GET-thethao,200,OK,Thread Group 1-3,text,true,,38492,602,1,1,https://vnexpress.net/the-thao,30,0,0
+1617333520779,31,VNE-GET-bongda,200,OK,Thread Group 1-3,text,true,,34722,643,1,1,https://vnexpress.net/bong-da,28,0,0
+1617333526684,1,PROF - VNE - Test 02,200,OK,Thread Group 1-4,text,true,,0,0,1,1,null,0,0,0
+1617333526686,1,PROF - VNE - Random main action,200,OK,Thread Group 1-4,text,true,,0,0,1,1,null,0,0,0
+1617333526689,70,VNE-GET-Home,200,OK,Thread Group 1-4,text,true,,39628,594,1,1,https://vnexpress.net/,63,0,41
+1617333526760,28,VNE-GET-thethao,200,OK,Thread Group 1-4,text,true,,38492,602,1,1,https://vnexpress.net/the-thao,23,0,0
+1617333526789,24,VNE-GET-bongda,200,OK,Thread Group 1-4,text,true,,34722,643,1,1,https://vnexpress.net/bong-da,21,0,0
+1617333532678,2,PROF - VNE - Test 02,200,OK,Thread Group 1-5,text,true,,0,0,1,1,null,0,0,0
+1617333532680,5,PROF - VNE - Random main action,200,OK,Thread Group 1-5,text,true,,0,0,1,1,null,0,0,0
+1617333538673,1,PROF - VNE - Test 02,200,OK,Thread Group 1-6,text,true,,0,0,1,1,null,0,0,0
+1617333538674,2,PROF - VNE - Random main action,200,OK,Thread Group 1-6,text,true,,0,0,1,1,null,0,0,0
+1617333538678,67,VNE-GET-Home,200,OK,Thread Group 1-6,text,true,,39628,594,1,1,https://vnexpress.net/,60,0,37
+1617333538746,29,VNE-GET-thethao,200,OK,Thread Group 1-6,text,true,,38492,602,1,1,https://vnexpress.net/the-thao,24,0,0
+1617333538778,28,VNE-GET-bongda,200,OK,Thread Group 1-6,text,true,,34722,643,1,1,https://vnexpress.net/bong-da,22,0,0
+1617333538807,29,VNE-GET-quansu,200,OK,Thread Group 1-6,text,true,,34303,651,1,1,https://vnexpress.net/the-gioi/quan-su,25,0,0
+1617333544680,1,PROF - VNE - Test 02,200,OK,Thread Group 1-7,text,true,,0,0,1,1,null,0,0,0
+1617333544685,5,PROF - VNE - Random main action,200,OK,Thread Group 1-7,text,true,,0,0,1,1,null,0,0,0
+1617333544710,67,VNE-GET-Home,200,OK,Thread Group 1-7,text,true,,39628,594,1,1,https://vnexpress.net/,55,0,32
+1617333544779,39,VNE-GET-thethao,200,OK,Thread Group 1-7,text,true,,38492,602,1,1,https://vnexpress.net/the-thao,28,0,0
+1617333544819,29,VNE-GET-bongda,200,OK,Thread Group 1-7,text,true,,34722,643,1,1,https://vnexpress.net/bong-da,22,0,0
+1617333550678,2,PROF - VNE - Test 02,200,OK,Thread Group 1-8,text,true,,0,0,1,1,null,0,0,0
+1617333550680,3,PROF - VNE - Random main action,200,OK,Thread Group 1-8,text,true,,0,0,1,1,null,0,0,0
+1617333550685,65,VNE-GET-Home,200,OK,Thread Group 1-8,text,true,,39630,594,1,1,https://vnexpress.net/,62,0,37
+1617333550751,31,VNE-GET-thethao,200,OK,Thread Group 1-8,text,true,,38494,602,1,1,https://vnexpress.net/the-thao,27,0,0
+1617333550783,28,VNE-GET-bongda,200,OK,Thread Group 1-8,text,true,,34724,643,1,1,https://vnexpress.net/bong-da,22,0,0
+1617333556673,2,PROF - VNE - Test 02,200,OK,Thread Group 1-9,text,true,,0,0,1,1,null,0,0,0
+1617333556675,3,PROF - VNE - Random main action,200,OK,Thread Group 1-9,text,true,,0,0,1,1,null,0,0,0
+1617333556680,68,VNE-GET-Home,200,OK,Thread Group 1-9,text,true,,39628,594,1,1,https://vnexpress.net/,63,0,35
+1617333556748,33,VNE-GET-thethao,200,OK,Thread Group 1-9,text,true,,38492,602,1,1,https://vnexpress.net/the-thao,28,0,0
+1617333556781,31,VNE-GET-bongda,200,OK,Thread Group 1-9,text,true,,34722,643,1,1,https://vnexpress.net/bong-da,27,0,0
+1617333562684,1,PROF - VNE - Test 02,200,OK,Thread Group 1-10,text,true,,0,0,1,1,null,0,0,0
+1617333562686,1,PROF - VNE - Random main action,200,OK,Thread Group 1-10,text,true,,0,0,1,1,null,0,0,0
+1617333562690,61,VNE-GET-Home,200,OK,Thread Group 1-10,text,true,,39630,594,1,1,https://vnexpress.net/,56,0,34
+1617333562752,31,VNE-GET-thethao,200,OK,Thread Group 1-10,text,true,,38494,602,1,1,https://vnexpress.net/the-thao,24,0,0
+1617333562784,26,VNE-GET-bongda,200,OK,Thread Group 1-10,text,true,,34724,643,1,1,https://vnexpress.net/bong-da,23,0,0
