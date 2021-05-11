@@ -1,3 +1,6 @@
+T2:
++ QA: https://csc-qa-customer-ui.business.creditstrong.com
 + CustomerUi: https://csc-perf-test-customer-ui.business.creditstrong.com
-+ Agenthub: https://csc-perf-test-agenthub-ui.business.creditstrong.com/
-+ Batch: https://csc-perf-test-batch.business.creditstrong.com/
++ Agenthub: https://csc-perf-test-agenthub-ui.business.creditstrong.com
++ Batch: https://csc-perf-test-batch.business.creditstrong.com
++ Dev: https://csc-dev-customer-ui.business.creditstrong.com

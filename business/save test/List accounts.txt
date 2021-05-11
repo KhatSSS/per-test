@@ -12,18 +12,24 @@ per.128@yopmail.com
 
 			-> per.68603356@acb.com
 
-26/04:
-	Test T2: per.68603443@yopmail.com -> per.68603452@yopmail.com
-	Test T1: per.68603443@yopmail.com -> per.68603452@yopmail.com
+10/05:
+	Test T2 - QA: 		per.68603443@yopmail.com -> per.68606246@yopmail.com
+		- Customer:	per.68603443@yopmail.com
+		- Dev:		per.68603443@yopmail.com
+		- Agenthub:	per.68603443@yopmail.com
+		- Batch: 	per.68603443@yopmail.com
+
+
+	Test T1 - Customer: 	per.68603443@yopmail.com -> per.68603452@yopmail.com
 
 Test Giap:
 	1200 threads
 	debit card: 4111111111111111
 
 //	per.68603453@yopmail.com -> per.68604652@yopmail.com
-	per.68604653@yopmail.com -> per.68605852@yopmail.com (completed)
+	per.68604653@yopmail.com -> per.68606245@yopmail.com (completed)
 	per.68605853@yopmail.com -> per.68606152@yopmail.com (not yet)
-	per.68606150@yopmail.com
+	per.68603440@yopmail.com (verified by email for test on UI)
 ---------
 
 * parameters:
