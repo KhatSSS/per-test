@@ -1,0 +1,982 @@
+{
+	"info": {
+		"_postman_id": "9276a005-ab27-4372-9e9c-1af7fbc0da51",
+		"name": "Middesk for business - api.middesk.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create a business",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{middesk_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alphabet Inc\",\r\n    \"tin\": {\r\n        \"tin\": \"434343434\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\r\n            \"city\": \"Mountain View\",\r\n            \"state\": \"CA\",\r\n            \"postal_code\": \"94043\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Larry Page\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507970487\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.middesk.com/v1/businesses",
+					"protocol": "https",
+					"host": [
+						"api",
+						"middesk",
+						"com"
+					],
+					"path": [
+						"v1",
+						"businesses"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Approved",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Alphabet Inc\",\r\n    \"tin\": {\r\n        \"tin\": \"611767919\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\r\n            \"city\": \"Mountain View\",\r\n            \"state\": \"CA\",\r\n            \"postal_code\": \"94043\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Larry Page\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507970487\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.middesk.com/v1/businesses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"middesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"businesses"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Feb 2021 05:47:55 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"8a2b621fa4333e485b2fd3cf257c2ea3\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "66eab399-db70-4d82-8037-35a9e5481a3d"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.255765"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "260"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "080d2e44b9000018e8b2279000000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=LJXOC7bjods1ntvho0693pdA4e%2BbFZGVPxN33Ucxv2hHijPeZ%2FjwirsuW8m44q9hvpoPwKuqKqrTTfNGsRDnmY8GqqVacZzMsXnG4P%2F%2FphU%3D\"}],\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "61c21981287918e8-SIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"object\": \"business\",\n    \"id\": \"7ae4e736-3094-491c-96e8-579c9b1afe89\",\n    \"external_id\": null,\n    \"name\": \"Alphabet Inc\",\n    \"created_at\": \"2021-02-04T05:47:54.941Z\",\n    \"updated_at\": \"2021-02-04T05:47:54.941Z\",\n    \"status\": \"open\",\n    \"tags\": [],\n    \"requester\": {\n        \"id\": \"7a4efbd3-91d0-4118-b2df-03e7a843e5f4\",\n        \"type\": \"account\",\n        \"name\": \"Austin Capital (Test)\",\n        \"requested_at\": \"2021-02-04T05:47:55.105Z\"\n    },\n    \"assignee_id\": \"e3c70da2-58d6-4aa4-a4ba-be77756c6088\",\n    \"review\": null,\n    \"tin\": {\n        \"name\": null,\n        \"tin\": \"61-1767919\",\n        \"mismatch\": false,\n        \"unknown\": false,\n        \"verified\": null,\n        \"error\": null,\n        \"updated_at\": null\n    },\n    \"business_batch_id\": null,\n    \"formation\": null,\n    \"website\": {\n        \"object\": \"website\",\n        \"id\": \"2c8c59cb-3d01-4244-84ec-6eb291288416\",\n        \"business_id\": \"7ae4e736-3094-491c-96e8-579c9b1afe89\",\n        \"url\": \"http://www.abc.xyz\",\n        \"status\": \"unknown\",\n        \"title\": null,\n        \"description\": null,\n        \"domain\": null,\n        \"pages\": [],\n        \"created_at\": \"2021-02-04T05:47:54.970Z\",\n        \"updated_at\": \"2021-02-04T05:47:54.970Z\",\n        \"business_name_match\": false,\n        \"parked\": null,\n        \"phone_numbers\": [],\n        \"addresses\": []\n    },\n    \"watchlist\": null,\n    \"names\": [],\n    \"addresses\": [\n        {\n            \"object\": \"address\",\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\n            \"address_line2\": null,\n            \"city\": \"Mountain View\",\n            \"state\": \"CA\",\n            \"postal_code\": \"94043\",\n            \"full_address\": \"1600 Amphitheatre Parkway, Mountain View, CA 94043\",\n            \"submitted\": true,\n            \"latitude\": null,\n            \"longitude\": null,\n            \"property_type\": null,\n            \"deliverable\": null,\n            \"deliverability_analysis\": null,\n            \"street_view_available\": false,\n            \"labels\": [],\n            \"created_at\": \"2021-02-04T05:47:54.975Z\",\n            \"updated_at\": \"2021-02-04T05:47:54.975Z\",\n            \"registered_agent_name\": null,\n            \"cmra\": null,\n            \"sources\": []\n        }\n    ],\n    \"people\": [\n        {\n            \"object\": \"person\",\n            \"name\": \"Larry Page\",\n            \"submitted\": true,\n            \"sources\": [],\n            \"titles\": []\n        }\n    ],\n    \"phone_numbers\": [\n        {\n            \"object\": \"phone_number\",\n            \"phone_number\": \"6507970487\"\n        }\n    ],\n    \"profiles\": [],\n    \"registrations\": [],\n    \"orders\": [\n        {\n            \"object\": \"order\",\n            \"id\": \"eb524c96-8733-4cb7-9a6a-1d448bdf363b\",\n            \"created_at\": \"2021-02-04T05:47:55.105Z\",\n            \"updated_at\": \"2021-02-04T05:47:55.105Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"identity\"\n        },\n        {\n            \"object\": \"order\",\n            \"id\": \"12593217-6a11-4b91-8ae2-7955163268ce\",\n            \"created_at\": \"2021-02-04T05:47:55.114Z\",\n            \"updated_at\": \"2021-02-04T05:47:55.114Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"tin\"\n        }\n    ],\n    \"industry_classification\": null\n}"
+				},
+				{
+					"name": "Formation < 6months",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"CalaKay Bundles\",\r\n    \"tin\": {\r\n        \"tin\": \"853124592\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"109 Ashbury Drive\",\r\n            \"city\": \"Villa Rica\",\r\n            \"state\": \"GA\",\r\n            \"postal_code\": \"30180\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Calandria Thompson\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507970487\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.middesk.com/v1/businesses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"middesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"businesses"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Feb 2021 05:48:34 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"037665acec563cb1123d2c67febe39fb\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "2d69ba6c-20ef-453b-a54e-3e31c437fa0b"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.286410"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "291"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "080d2edf3a000018e8bb015000000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=nlUkeIYu7WDiFq5KcaIuZbBrAa09%2FsOy8tJHIKhDtgzg0DMsHMT%2FNxbqZdv4fmt0yDbDHT1Xv38gqLXPHwjsD%2FhXh0NWA2RPbFPW4oJUQ3w%3D\"}],\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "61c21a785add18e8-SIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"object\": \"business\",\n    \"id\": \"47cf2c85-1d9a-449c-b987-f404ab2e5dfa\",\n    \"external_id\": null,\n    \"name\": \"CalaKay Bundles\",\n    \"created_at\": \"2021-02-04T05:48:34.515Z\",\n    \"updated_at\": \"2021-02-04T05:48:34.515Z\",\n    \"status\": \"open\",\n    \"tags\": [],\n    \"requester\": {\n        \"id\": \"7a4efbd3-91d0-4118-b2df-03e7a843e5f4\",\n        \"type\": \"account\",\n        \"name\": \"Austin Capital (Test)\",\n        \"requested_at\": \"2021-02-04T05:48:34.690Z\"\n    },\n    \"assignee_id\": \"e3c70da2-58d6-4aa4-a4ba-be77756c6088\",\n    \"review\": null,\n    \"tin\": {\n        \"name\": null,\n        \"tin\": \"85-3124592\",\n        \"mismatch\": false,\n        \"unknown\": false,\n        \"verified\": null,\n        \"error\": null,\n        \"updated_at\": null\n    },\n    \"business_batch_id\": null,\n    \"formation\": null,\n    \"website\": {\n        \"object\": \"website\",\n        \"id\": \"781dba11-ab80-42bd-a4d5-15a065b0d192\",\n        \"business_id\": \"47cf2c85-1d9a-449c-b987-f404ab2e5dfa\",\n        \"url\": \"http://www.abc.xyz\",\n        \"status\": \"unknown\",\n        \"title\": null,\n        \"description\": null,\n        \"domain\": null,\n        \"pages\": [],\n        \"created_at\": \"2021-02-04T05:48:34.543Z\",\n        \"updated_at\": \"2021-02-04T05:48:34.543Z\",\n        \"business_name_match\": false,\n        \"parked\": null,\n        \"phone_numbers\": [],\n        \"addresses\": []\n    },\n    \"watchlist\": null,\n    \"names\": [],\n    \"addresses\": [\n        {\n            \"object\": \"address\",\n            \"address_line1\": \"109 Ashbury Drive\",\n            \"address_line2\": null,\n            \"city\": \"Villa Rica\",\n            \"state\": \"GA\",\n            \"postal_code\": \"30180\",\n            \"full_address\": \"109 Ashbury Drive, Villa Rica, GA 30180\",\n            \"submitted\": true,\n            \"latitude\": null,\n            \"longitude\": null,\n            \"property_type\": null,\n            \"deliverable\": null,\n            \"deliverability_analysis\": null,\n            \"street_view_available\": false,\n            \"labels\": [],\n            \"created_at\": \"2021-02-04T05:48:34.549Z\",\n            \"updated_at\": \"2021-02-04T05:48:34.549Z\",\n            \"registered_agent_name\": null,\n            \"cmra\": null,\n            \"sources\": []\n        }\n    ],\n    \"people\": [\n        {\n            \"object\": \"person\",\n            \"name\": \"Calandria Thompson\",\n            \"submitted\": true,\n            \"sources\": [],\n            \"titles\": []\n        }\n    ],\n    \"phone_numbers\": [\n        {\n            \"object\": \"phone_number\",\n            \"phone_number\": \"6507970487\"\n        }\n    ],\n    \"profiles\": [],\n    \"registrations\": [],\n    \"orders\": [\n        {\n            \"object\": \"order\",\n            \"id\": \"44d8bcdd-de6f-43e4-a7c6-ec83ca4f3b0a\",\n            \"created_at\": \"2021-02-04T05:48:34.690Z\",\n            \"updated_at\": \"2021-02-04T05:48:34.690Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"identity\"\n        },\n        {\n            \"object\": \"order\",\n            \"id\": \"80495851-cfe1-465b-a4c0-381b8175dddf\",\n            \"created_at\": \"2021-02-04T05:48:34.710Z\",\n            \"updated_at\": \"2021-02-04T05:48:34.710Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"tin\"\n        }\n    ],\n    \"industry_classification\": null\n}"
+				},
+				{
+					"name": "rejected-industry-people",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Alphabet Inc\",\r\n    \"tin\": {\r\n        \"tin\": \"611767919\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\r\n            \"city\": \"Mountain View\",\r\n            \"state\": \"CA\",\r\n            \"postal_code\": \"94043\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Fake Officer\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507970487\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.middesk.com/v1/businesses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"middesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"businesses"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Feb 2021 05:48:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"40fcbdaeb99c1c3af26c0425af629a9b\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "223fbaa4-b9bf-4c0f-b664-41ae70e74583"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.285407"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "290"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "080d2f4031000018e8b1b6e000000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=UerHHQ1%2Byyc2Hn1a6mY2wExwxn57x%2Fib43ym%2FpN42qkwCRmLqu4L3xEVQszTvPMt2zFPpkxlH9XilR1PO2dWhIBzAM%2BRZAHOVNfbUnEheXc%3D\"}],\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "61c21b13888a18e8-SIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"object\": \"business\",\n    \"id\": \"ce5470e2-a3c7-4e95-b2ba-8097fbba42a4\",\n    \"external_id\": null,\n    \"name\": \"Alphabet Inc\",\n    \"created_at\": \"2021-02-04T05:48:59.345Z\",\n    \"updated_at\": \"2021-02-04T05:48:59.345Z\",\n    \"status\": \"open\",\n    \"tags\": [],\n    \"requester\": {\n        \"id\": \"7a4efbd3-91d0-4118-b2df-03e7a843e5f4\",\n        \"type\": \"account\",\n        \"name\": \"Austin Capital (Test)\",\n        \"requested_at\": \"2021-02-04T05:48:59.511Z\"\n    },\n    \"assignee_id\": \"e3c70da2-58d6-4aa4-a4ba-be77756c6088\",\n    \"review\": null,\n    \"tin\": {\n        \"name\": null,\n        \"tin\": \"61-1767919\",\n        \"mismatch\": false,\n        \"unknown\": false,\n        \"verified\": null,\n        \"error\": null,\n        \"updated_at\": null\n    },\n    \"business_batch_id\": null,\n    \"formation\": null,\n    \"website\": {\n        \"object\": \"website\",\n        \"id\": \"400e7291-77b5-4705-9c4d-502541dd0556\",\n        \"business_id\": \"ce5470e2-a3c7-4e95-b2ba-8097fbba42a4\",\n        \"url\": \"http://www.abc.xyz\",\n        \"status\": \"unknown\",\n        \"title\": null,\n        \"description\": null,\n        \"domain\": null,\n        \"pages\": [],\n        \"created_at\": \"2021-02-04T05:48:59.375Z\",\n        \"updated_at\": \"2021-02-04T05:48:59.375Z\",\n        \"business_name_match\": false,\n        \"parked\": null,\n        \"phone_numbers\": [],\n        \"addresses\": []\n    },\n    \"watchlist\": null,\n    \"names\": [],\n    \"addresses\": [\n        {\n            \"object\": \"address\",\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\n            \"address_line2\": null,\n            \"city\": \"Mountain View\",\n            \"state\": \"CA\",\n            \"postal_code\": \"94043\",\n            \"full_address\": \"1600 Amphitheatre Parkway, Mountain View, CA 94043\",\n            \"submitted\": true,\n            \"latitude\": null,\n            \"longitude\": null,\n            \"property_type\": null,\n            \"deliverable\": null,\n            \"deliverability_analysis\": null,\n            \"street_view_available\": false,\n            \"labels\": [],\n            \"created_at\": \"2021-02-04T05:48:59.381Z\",\n            \"updated_at\": \"2021-02-04T05:48:59.381Z\",\n            \"registered_agent_name\": null,\n            \"cmra\": null,\n            \"sources\": []\n        }\n    ],\n    \"people\": [\n        {\n            \"object\": \"person\",\n            \"name\": \"Fake Officer\",\n            \"submitted\": true,\n            \"sources\": [],\n            \"titles\": []\n        }\n    ],\n    \"phone_numbers\": [\n        {\n            \"object\": \"phone_number\",\n            \"phone_number\": \"6507970487\"\n        }\n    ],\n    \"profiles\": [],\n    \"registrations\": [],\n    \"orders\": [\n        {\n            \"object\": \"order\",\n            \"id\": \"c5217831-52f1-457f-ae16-43c0d801c88c\",\n            \"created_at\": \"2021-02-04T05:48:59.511Z\",\n            \"updated_at\": \"2021-02-04T05:48:59.511Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"identity\"\n        },\n        {\n            \"object\": \"order\",\n            \"id\": \"7cde0b33-3a9a-4b6d-9039-b4b87d7f8f3f\",\n            \"created_at\": \"2021-02-04T05:48:59.534Z\",\n            \"updated_at\": \"2021-02-04T05:48:59.534Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"tin\"\n        }\n    ],\n    \"industry_classification\": null\n}"
+				},
+				{
+					"name": "rejected-sos-warning",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Alphabet Inc\",\r\n    \"tin\": {\r\n        \"tin\": \"611767919\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"251 Little Falls Drive\",\r\n            \"city\": \"Wilmington\",\r\n            \"state\": \"DE\",\r\n            \"postal_code\": \"19807\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Larry Page\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507970487\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.middesk.com/v1/businesses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"middesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"businesses"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Feb 2021 05:49:24 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"1bd699d8925334d18cbf84602bc1c161\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "8b0442e8-68f5-4b95-948c-88007008a95b"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.275375"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "280"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "080d2fa2a6000018e88e8a0000000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=icErqMJpTNl92Cglj6nRinXwRUladJdBLcqQE3zZSLVT%2BTB8WD8fHYMmxRKFF7XrWVVYomoqL7Mqp68qGR96b7fgKAAIHhCWkpNH1k5LSLs%3D\"}],\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "61c21bb1085a18e8-SIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"object\": \"business\",\n    \"id\": \"3a4d849c-093f-461c-96dd-67ebac5bb652\",\n    \"external_id\": null,\n    \"name\": \"Alphabet Inc\",\n    \"created_at\": \"2021-02-04T05:49:24.162Z\",\n    \"updated_at\": \"2021-02-04T05:49:24.162Z\",\n    \"status\": \"open\",\n    \"tags\": [],\n    \"requester\": {\n        \"id\": \"7a4efbd3-91d0-4118-b2df-03e7a843e5f4\",\n        \"type\": \"account\",\n        \"name\": \"Austin Capital (Test)\",\n        \"requested_at\": \"2021-02-04T05:49:24.329Z\"\n    },\n    \"assignee_id\": \"e3c70da2-58d6-4aa4-a4ba-be77756c6088\",\n    \"review\": null,\n    \"tin\": {\n        \"name\": null,\n        \"tin\": \"61-1767919\",\n        \"mismatch\": false,\n        \"unknown\": false,\n        \"verified\": null,\n        \"error\": null,\n        \"updated_at\": null\n    },\n    \"business_batch_id\": null,\n    \"formation\": null,\n    \"website\": {\n        \"object\": \"website\",\n        \"id\": \"9028f71d-5cc4-440c-af42-f7537b86364d\",\n        \"business_id\": \"3a4d849c-093f-461c-96dd-67ebac5bb652\",\n        \"url\": \"http://www.abc.xyz\",\n        \"status\": \"unknown\",\n        \"title\": null,\n        \"description\": null,\n        \"domain\": null,\n        \"pages\": [],\n        \"created_at\": \"2021-02-04T05:49:24.187Z\",\n        \"updated_at\": \"2021-02-04T05:49:24.187Z\",\n        \"business_name_match\": false,\n        \"parked\": null,\n        \"phone_numbers\": [],\n        \"addresses\": []\n    },\n    \"watchlist\": null,\n    \"names\": [],\n    \"addresses\": [\n        {\n            \"object\": \"address\",\n            \"address_line1\": \"251 Little Falls Drive\",\n            \"address_line2\": null,\n            \"city\": \"Wilmington\",\n            \"state\": \"DE\",\n            \"postal_code\": \"19807\",\n            \"full_address\": \"251 Little Falls Drive, Wilmington, DE 19807\",\n            \"submitted\": true,\n            \"latitude\": null,\n            \"longitude\": null,\n            \"property_type\": null,\n            \"deliverable\": null,\n            \"deliverability_analysis\": null,\n            \"street_view_available\": false,\n            \"labels\": [],\n            \"created_at\": \"2021-02-04T05:49:24.193Z\",\n            \"updated_at\": \"2021-02-04T05:49:24.193Z\",\n            \"registered_agent_name\": null,\n            \"cmra\": null,\n            \"sources\": []\n        }\n    ],\n    \"people\": [\n        {\n            \"object\": \"person\",\n            \"name\": \"Larry Page\",\n            \"submitted\": true,\n            \"sources\": [],\n            \"titles\": []\n        }\n    ],\n    \"phone_numbers\": [\n        {\n            \"object\": \"phone_number\",\n            \"phone_number\": \"6507970487\"\n        }\n    ],\n    \"profiles\": [],\n    \"registrations\": [],\n    \"orders\": [\n        {\n            \"object\": \"order\",\n            \"id\": \"86395dc2-8f32-4200-b86e-d0e915e82d31\",\n            \"created_at\": \"2021-02-04T05:49:24.329Z\",\n            \"updated_at\": \"2021-02-04T05:49:24.329Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"identity\"\n        },\n        {\n            \"object\": \"order\",\n            \"id\": \"ca544cc6-6afe-47e5-8d28-fa91d9e0e2af\",\n            \"created_at\": \"2021-02-04T05:49:24.336Z\",\n            \"updated_at\": \"2021-02-04T05:49:24.336Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"tin\"\n        }\n    ],\n    \"industry_classification\": null\n}"
+				},
+				{
+					"name": "retry-name-failure",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Alphabe Inc\",\r\n    \"tin\": {\r\n        \"tin\": \"4343434367\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\r\n            \"city\": \"Mountain View\",\r\n            \"state\": \"CA\",\r\n            \"postal_code\": \"94043\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Larry Page\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507974587\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.middesk.com/v1/businesses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"middesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"businesses"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Feb 2021 05:49:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"d702c180b55e37a973cee8dcc3d3bedf\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "be91ceea-8750-42f3-944c-96914ba95280"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.287858"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "292"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "080d300ba0000018e891323000000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=HaGXjg34hJlEfwzd952aV75U%2FgkTk52YOmEEdbfeGpTiKp6yp%2BXcJa5wX7zlLxPsk1k9VTtBMs%2FXCnLr1iEnNP1%2Buemr3c5b12gVf7lkDJc%3D\"}],\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "61c21c58fe1218e8-SIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"object\": \"business\",\n    \"id\": \"9eba2ad8-0e3a-4baa-990e-490e31bf6eed\",\n    \"external_id\": null,\n    \"name\": \"Alphabe Inc\",\n    \"created_at\": \"2021-02-04T05:49:51.399Z\",\n    \"updated_at\": \"2021-02-04T05:49:51.399Z\",\n    \"status\": \"open\",\n    \"tags\": [],\n    \"requester\": {\n        \"id\": \"7a4efbd3-91d0-4118-b2df-03e7a843e5f4\",\n        \"type\": \"account\",\n        \"name\": \"Austin Capital (Test)\",\n        \"requested_at\": \"2021-02-04T05:49:51.581Z\"\n    },\n    \"assignee_id\": \"e3c70da2-58d6-4aa4-a4ba-be77756c6088\",\n    \"review\": null,\n    \"tin\": {\n        \"name\": null,\n        \"tin\": \"43-43434367\",\n        \"mismatch\": false,\n        \"unknown\": false,\n        \"verified\": null,\n        \"error\": null,\n        \"updated_at\": null\n    },\n    \"business_batch_id\": null,\n    \"formation\": null,\n    \"website\": {\n        \"object\": \"website\",\n        \"id\": \"9aa33ebd-ff6c-4558-86d6-1ff4b36c6db9\",\n        \"business_id\": \"9eba2ad8-0e3a-4baa-990e-490e31bf6eed\",\n        \"url\": \"http://www.abc.xyz\",\n        \"status\": \"unknown\",\n        \"title\": null,\n        \"description\": null,\n        \"domain\": null,\n        \"pages\": [],\n        \"created_at\": \"2021-02-04T05:49:51.427Z\",\n        \"updated_at\": \"2021-02-04T05:49:51.427Z\",\n        \"business_name_match\": false,\n        \"parked\": null,\n        \"phone_numbers\": [],\n        \"addresses\": []\n    },\n    \"watchlist\": null,\n    \"names\": [],\n    \"addresses\": [\n        {\n            \"object\": \"address\",\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\n            \"address_line2\": null,\n            \"city\": \"Mountain View\",\n            \"state\": \"CA\",\n            \"postal_code\": \"94043\",\n            \"full_address\": \"1600 Amphitheatre Parkway, Mountain View, CA 94043\",\n            \"submitted\": true,\n            \"latitude\": null,\n            \"longitude\": null,\n            \"property_type\": null,\n            \"deliverable\": null,\n            \"deliverability_analysis\": null,\n            \"street_view_available\": false,\n            \"labels\": [],\n            \"created_at\": \"2021-02-04T05:49:51.433Z\",\n            \"updated_at\": \"2021-02-04T05:49:51.433Z\",\n            \"registered_agent_name\": null,\n            \"cmra\": null,\n            \"sources\": []\n        }\n    ],\n    \"people\": [\n        {\n            \"object\": \"person\",\n            \"name\": \"Larry Page\",\n            \"submitted\": true,\n            \"sources\": [],\n            \"titles\": []\n        }\n    ],\n    \"phone_numbers\": [\n        {\n            \"object\": \"phone_number\",\n            \"phone_number\": \"6507974587\"\n        }\n    ],\n    \"profiles\": [],\n    \"registrations\": [],\n    \"orders\": [\n        {\n            \"object\": \"order\",\n            \"id\": \"4f36bd46-8672-4989-9bf0-63ddf32a94b9\",\n            \"created_at\": \"2021-02-04T05:49:51.581Z\",\n            \"updated_at\": \"2021-02-04T05:49:51.581Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"identity\"\n        },\n        {\n            \"object\": \"order\",\n            \"id\": \"5f3c232f-6c29-40a0-a831-3de6588ca1c6\",\n            \"created_at\": \"2021-02-04T05:49:51.594Z\",\n            \"updated_at\": \"2021-02-04T05:49:51.594Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"tin\"\n        }\n    ],\n    \"industry_classification\": null\n}"
+				},
+				{
+					"name": "retry-tin-failure",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Alphabet Inc\",\r\n    \"tin\": {\r\n        \"tin\": \"434343434\"\r\n    },\r\n    \"website\": {\r\n        \"url\": \"http://www.abc.xyz\"\r\n    },\r\n    \"addresses\": [\r\n        {\r\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\r\n            \"city\": \"Mountain View\",\r\n            \"state\": \"CA\",\r\n            \"postal_code\": \"94043\"\r\n        }\r\n    ],\r\n    \"people\" : [\r\n        {\r\n            \"name\": \"Larry Page\"\r\n        }\r\n    ],\r\n    \"phone_numbers\" : [\r\n        {\r\n            \"phone_number\": \"6507970487\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.middesk.com/v1/businesses",
+							"protocol": "https",
+							"host": [
+								"api",
+								"middesk",
+								"com"
+							],
+							"path": [
+								"v1",
+								"businesses"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Feb 2021 05:50:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"23dd13e6479acbaf71652ee3453927ba\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "f983cfc1-5fac-4c5f-9848-73450fe0c86f"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.283387"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "288"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "080d308f54000018e8b2265000000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=5npJJzXPpWog%2B5Q3btIETkkHDTSrBHVNos51PoZAOBNCEIPOD5BZOYdr6P3944wcyS6De8By7tEREp8%2BlYul%2BWCJubMl3gnhdn%2Bp76K4WiM%3D\"}],\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "61c21d2bbf9518e8-SIN"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"object\": \"business\",\n    \"id\": \"e7308898-2c59-4502-a31c-6f273b4f2ab8\",\n    \"external_id\": null,\n    \"name\": \"Alphabet Inc\",\n    \"created_at\": \"2021-02-04T05:50:24.744Z\",\n    \"updated_at\": \"2021-02-04T05:50:24.744Z\",\n    \"status\": \"open\",\n    \"tags\": [],\n    \"requester\": {\n        \"id\": \"7a4efbd3-91d0-4118-b2df-03e7a843e5f4\",\n        \"type\": \"account\",\n        \"name\": \"Austin Capital (Test)\",\n        \"requested_at\": \"2021-02-04T05:50:24.922Z\"\n    },\n    \"assignee_id\": \"e3c70da2-58d6-4aa4-a4ba-be77756c6088\",\n    \"review\": null,\n    \"tin\": {\n        \"name\": null,\n        \"tin\": \"43-4343434\",\n        \"mismatch\": false,\n        \"unknown\": false,\n        \"verified\": null,\n        \"error\": null,\n        \"updated_at\": null\n    },\n    \"business_batch_id\": null,\n    \"formation\": null,\n    \"website\": {\n        \"object\": \"website\",\n        \"id\": \"5ebbc578-b6c4-4863-9d35-a0fb39e21153\",\n        \"business_id\": \"e7308898-2c59-4502-a31c-6f273b4f2ab8\",\n        \"url\": \"http://www.abc.xyz\",\n        \"status\": \"unknown\",\n        \"title\": null,\n        \"description\": null,\n        \"domain\": null,\n        \"pages\": [],\n        \"created_at\": \"2021-02-04T05:50:24.772Z\",\n        \"updated_at\": \"2021-02-04T05:50:24.772Z\",\n        \"business_name_match\": false,\n        \"parked\": null,\n        \"phone_numbers\": [],\n        \"addresses\": []\n    },\n    \"watchlist\": null,\n    \"names\": [],\n    \"addresses\": [\n        {\n            \"object\": \"address\",\n            \"address_line1\": \"1600 Amphitheatre Parkway\",\n            \"address_line2\": null,\n            \"city\": \"Mountain View\",\n            \"state\": \"CA\",\n            \"postal_code\": \"94043\",\n            \"full_address\": \"1600 Amphitheatre Parkway, Mountain View, CA 94043\",\n            \"submitted\": true,\n            \"latitude\": null,\n            \"longitude\": null,\n            \"property_type\": null,\n            \"deliverable\": null,\n            \"deliverability_analysis\": null,\n            \"street_view_available\": false,\n            \"labels\": [],\n            \"created_at\": \"2021-02-04T05:50:24.778Z\",\n            \"updated_at\": \"2021-02-04T05:50:24.778Z\",\n            \"registered_agent_name\": null,\n            \"cmra\": null,\n            \"sources\": []\n        }\n    ],\n    \"people\": [\n        {\n            \"object\": \"person\",\n            \"name\": \"Larry Page\",\n            \"submitted\": true,\n            \"sources\": [],\n            \"titles\": []\n        }\n    ],\n    \"phone_numbers\": [\n        {\n            \"object\": \"phone_number\",\n            \"phone_number\": \"6507970487\"\n        }\n    ],\n    \"profiles\": [],\n    \"registrations\": [],\n    \"orders\": [\n        {\n            \"object\": \"order\",\n            \"id\": \"cf67f6ed-5939-482a-8c98-9b233102f3d5\",\n            \"created_at\": \"2021-02-04T05:50:24.922Z\",\n            \"updated_at\": \"2021-02-04T05:50:24.922Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"identity\"\n        },\n        {\n            \"object\": \"order\",\n            \"id\": \"f6902c3c-77ed-4de4-9ad6-d3d9b5fdb80a\",\n            \"created_at\": \"2021-02-04T05:50:24.931Z\",\n            \"updated_at\": \"2021-02-04T05:50:24.931Z\",\n            \"completed_at\": null,\n            \"status\": \"created\",\n            \"product\": \"tin\"\n        }\n    ],\n    \"industry_classification\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Update a business",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{middesk_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tin\": {\r\n        \"tin\": \"123410001\"\r\n    }\r\n    // \"name\": \"Nghia Nguyen test1\"\r\n\r\n    // \"addresses\": [\r\n    //     {\r\n    //         \"address_line1\": \"1602 Amphitheatre Parkway\",\r\n    //         \"city\": \"Mountain View\",\r\n    //         \"state\": \"CA\",\r\n    //         \"postal_code\": \"94045\"\r\n    //     }\r\n    // ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.middesk.com/v1/businesses/6e12d0cc-b8b7-4406-96f1-45f162516a06",
+					"protocol": "https",
+					"host": [
+						"api",
+						"middesk",
+						"com"
+					],
+					"path": [
+						"v1",
+						"businesses",
+						"6e12d0cc-b8b7-4406-96f1-45f162516a06"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrive a business",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{middesk_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.middesk.com/v1/businesses/f572b600-0c66-4113-851c-7e55ec3413e8",
+					"protocol": "https",
+					"host": [
+						"api",
+						"middesk",
+						"com"
+					],
+					"path": [
+						"v1",
+						"businesses",
+						"f572b600-0c66-4113-851c-7e55ec3413e8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List all business",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{middesk_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.middesk.com/v1/businesses",
+					"protocol": "https",
+					"host": [
+						"api",
+						"middesk",
+						"com"
+					],
+					"path": [
+						"v1",
+						"businesses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

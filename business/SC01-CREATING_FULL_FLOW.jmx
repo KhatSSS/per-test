@@ -256,6 +256,7 @@
             <stringProp name="Argument.name">CounterStart-A01</stringProp>
             <stringProp name="Argument.value">68606258</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">threads: 1</stringProp>
           </elementProp>
           <elementProp name="path-csv-login" elementType="Argument">
             <stringProp name="Argument.name">path-csv-login</stringProp>
@@ -282,6 +283,7 @@
             <stringProp name="Argument.name">CounterStart-A01</stringProp>
             <stringProp name="Argument.value">68606252</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">threads: 2</stringProp>
           </elementProp>
           <elementProp name="path-csv-login" elementType="Argument">
             <stringProp name="Argument.name">path-csv-login</stringProp>
@@ -368,7 +370,7 @@
         </collectionProp>
       </Arguments>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Test-ReggisterUser" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Test-ReggisterUser" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -692,37 +694,37 @@ Random rnd = new Random()
 	// Get Path_extract
 	if(host.indexOf(&apos;qa&apos;) &gt; -1){					// case: qa
 		vars.put(&quot;email_count&quot;, &quot;per.qa.${CounterStart}@yopmail.com&quot;);
-		vars.put(&quot;reg_first_name&quot;, &quot;QA&quot;);
+		vars.put(&quot;pref_first_name&quot;, &quot;QA&quot;);
 		vars.put(&quot;path_extract&quot;, path_QA);
 		log.info(&apos;--- qa&apos;);
 	}
 	else if(host.indexOf(&apos;dev&apos;) &gt; -1){				// case: dev
 		vars.put(&quot;email_count&quot;, &quot;per.dev.${CounterStart}@yopmail.com&quot;);
-		vars.put(&quot;reg_first_name&quot;, &quot;DEV&quot;);
+		vars.put(&quot;pref_first_name&quot;, &quot;DEV&quot;);
 		vars.put(&quot;path_extract&quot;, path_DEV);
 		log.info(&apos;--- dev&apos;);
 	}
 	else if(host.indexOf(&apos;agenthub&apos;) &gt; -1){			// case: agenthub
 		vars.put(&quot;email_count&quot;, &quot;per.agenthub.${CounterStart}@yopmail.com&quot;);
-		vars.put(&quot;reg_first_name&quot;, &quot;AGENTHUB&quot;);
+		vars.put(&quot;pref_first_name&quot;, &quot;AGENTHUB&quot;);
 		vars.put(&quot;path_extract&quot;, path_AGENTHUB);
 		log.info(&apos;--- agenthub&apos;);
 	}
 	else if(host.indexOf(&apos;batch&apos;) &gt; -1){			// case: batch
 		vars.put(&quot;email_count&quot;, &quot;per.batch.${CounterStart}@yopmail.com&quot;);
-		vars.put(&quot;reg_first_name&quot;, &quot;BATCH&quot;);
+		vars.put(&quot;pref_first_name&quot;, &quot;BATCH&quot;);
 		vars.put(&quot;path_extract&quot;, path_BATCH);
 		log.info(&apos;--- batch&apos;);
 	}
 	else if(host.indexOf(&apos;stagging&apos;) &gt; -1){			// case: batch
 		vars.put(&quot;email_count&quot;, &quot;per.stagging.${CounterStart}@yopmail.com&quot;);
-		vars.put(&quot;reg_first_name&quot;, &quot;STAGGING&quot;);
+		vars.put(&quot;pref_first_name&quot;, &quot;STAGGING&quot;);
 		vars.put(&quot;path_extract&quot;, path_STAGGING);
 		log.info(&apos;--- stagging&apos;);
 	}
 	else{									// case: customer
 		vars.put(&quot;email_count&quot;, &quot;per.ui-${CounterStart}@yopmail.com&quot;);
-		vars.put(&quot;reg_first_name&quot;, &quot;UI&quot;);
+		vars.put(&quot;pref_first_name&quot;, &quot;UI&quot;);
 		vars.put(&quot;path_extract&quot;, path_CUSTOMER);
 		log.info(&apos;--- cutomerUI&apos;);
 	}
@@ -989,7 +991,7 @@ log.info(&quot;pathCSV: &quot; + pathCSV);
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;email&quot;: &quot;${email_count}&quot;, &quot;firstName&quot;: &quot;${reg_first_name} Performance&quot;, &quot;lastName&quot;: &quot;Testing&quot;, &quot;utm_source&quot;: &quot;&quot;, &quot;utm_term&quot;: &quot;&quot;, &quot;aff_click_id&quot;: &quot;&quot;&#xd;
+                      <stringProp name="Argument.value">{&quot;email&quot;: &quot;${email_count}&quot;, &quot;firstName&quot;: &quot;${pref_first_name} Performance&quot;, &quot;lastName&quot;: &quot;Testing&quot;, &quot;utm_source&quot;: &quot;&quot;, &quot;utm_term&quot;: &quot;&quot;, &quot;aff_click_id&quot;: &quot;&quot;&#xd;
 , &quot;aff_sub&quot;: &quot;&quot;, &quot;aff_sub2&quot;: &quot;&quot;, &quot;aff_sub3&quot;: &quot;&quot;, &quot;aff_sub4&quot;: &quot;&quot;, &quot;aff_sub5&quot;: &quot;&quot;, &quot;affiliate_id&quot;: &quot;&quot;, &quot;source&quot;: &quot;&quot;, &quot;transaction_id&quot;: &quot;&quot;, &quot;utm_campaign&quot;: &quot;&quot;, &quot;utm_content&quot;: &quot;&quot;, &quot;utm_medium&quot;: &quot;&quot;}&#xd;
 </stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
@@ -4061,7 +4063,7 @@ f.close();
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;firstName&quot;: &quot;${reg_first_name} Performance&quot;, &quot;lastName&quot;: &quot;Testing&quot;, &quot;ssn&quot;: &quot;${ssn}&quot;, &quot;birthDate&quot;: &quot;1990-11-11&quot;, &quot;middleInitial&quot;: null, &#xd;
+                      <stringProp name="Argument.value">{&quot;firstName&quot;: &quot;${pref_first_name} Performance&quot;, &quot;lastName&quot;: &quot;Testing&quot;, &quot;ssn&quot;: &quot;${ssn}&quot;, &quot;birthDate&quot;: &quot;1990-11-11&quot;, &quot;middleInitial&quot;: null, &#xd;
 &quot;suffix&quot;: null}&#xd;
 </stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
