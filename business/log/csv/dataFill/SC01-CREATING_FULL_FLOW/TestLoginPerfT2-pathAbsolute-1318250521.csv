@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1621923422021,693,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-1,text,true,,0,0,1,1,null,0,0,0
+1621923422831,54,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-1,text,true,,0,0,1,1,null,0,0,0
+1621923422885,10,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-1,text,true,,0,0,1,1,null,0,0,0
+1621923472009,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-2,text,true,,0,0,1,1,null,0,0,0
+1621923472011,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-2,text,true,,0,0,1,1,null,0,0,0
+1621923472013,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-2,text,true,,0,0,1,1,null,0,0,0
+1621923522015,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-3,text,true,,0,0,1,1,null,0,0,0
+1621923522017,0,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-3,text,true,,0,0,1,1,null,0,0,0
+1621923522017,1,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-3,text,true,,0,0,1,1,null,0,0,0
+1621923572009,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-4,text,true,,0,0,1,1,null,0,0,0
+1621923572012,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-4,text,true,,0,0,1,1,null,0,0,0
+1621923572013,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-4,text,true,,0,0,1,1,null,0,0,0
+1621923622005,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-5,text,true,,0,0,1,1,null,0,0,0
+1621923622007,0,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-5,text,true,,0,0,1,1,null,0,0,0
+1621923622008,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-5,text,true,,0,0,1,1,null,0,0,0
+1621923672011,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-6,text,true,,0,0,1,1,null,0,0,0
+1621923672013,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-6,text,true,,0,0,1,1,null,0,0,0
+1621923672014,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-6,text,true,,0,0,1,1,null,0,0,0
+1621923722002,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-7,text,true,,0,0,1,1,null,0,0,0
+1621923722005,0,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-7,text,true,,0,0,1,1,null,0,0,0
+1621923722006,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-7,text,true,,0,0,1,1,null,0,0,0
+1621923772007,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-8,text,true,,0,0,1,1,null,0,0,0
+1621923772008,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-8,text,true,,0,0,1,1,null,0,0,0
+1621923772009,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-8,text,true,,0,0,1,1,null,0,0,0
+1621923822003,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-9,text,true,,0,0,1,1,null,0,0,0
+1621923822005,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-9,text,true,,0,0,1,1,null,0,0,0
+1621923822006,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-9,text,true,,0,0,1,1,null,0,0,0
+1621923871999,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-10,text,true,,0,0,1,1,null,0,0,0
+1621923872001,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-10,text,true,,0,0,1,1,null,0,0,0
+1621923872002,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-10,text,true,,0,0,1,1,null,0,0,0

@@ -1,0 +1,121 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1621913955281,638,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-1,text,true,,0,0,1,1,null,0,0,0
+1621913955925,12,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-1,text,true,,0,0,1,1,null,0,0,0
+1621913955938,121,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-1,text,true,,0,0,1,1,null,0,0,0
+1621913956232,2023,AF-010-GET-Login,200,OK,Test-Login 1-1,text,true,,1758,671,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/login,2022,0,1050
+1621913958283,283,AF-020-GET-maintenance/configuration,200,OK,Test-Login 1-1,text,true,,1757,859,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/origination/public/maintenance/configuration,283,0,0
+1621913958568,1087,LG-010-POST-check-lead-with-application,200,OK,Test-Login 1-1,text,true,,556,791,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/lead/check-lead-with-application,1086,0,823
+1621913959657,474,LG-020-POST-auth/oauth/token,200,OK,Test-Login 1-1,text,true,,4793,997,1,1,https://csc-perf-test-gateway.business.creditstrong.com/auth/oauth/token,473,0,0
+1621913961745,313,LG-030-GET-applicants/email,200,OK,Test-Login 1-1,text,true,,2279,2762,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/email?email=OWVZbTBkRAN8-Fu_TVH-ZMs38nUIrO0VtFwp4isZMFY%3D,312,0,0
+1621913963295,257,LG-040-GET-maintenance/configuration,200,OK,Test-Login 1-1,text,true,,570,2735,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/maintenance/configuration,256,0,0
+1621913963553,268,LG-050-GET-noaa/latest/customerUUID,200,OK,Test-Login 1-1,text,true,,800,2754,1,1,https://csc-perf-test-gateway.business.creditstrong.com/core/documents/noaa/latest/ea38b7f7-9d33-426d-8935-e6a81ed674e3,268,0,0
+1621913963821,485,LG-060-GET-dashboard,200,OK,Test-Login 1-1,text,true,,1091,2752,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/ZlyfZ5tf9Z9cJilBb8PP_g==/dashboard,485,0,0
+1621913964307,286,LG-070-GET-payments/failed,200,OK,Test-Login 1-1,,true,,514,2798,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/85doAzDni0B84GdDO2nXNIPsGRziBK3dwFSNvy3kwunNL0TJVTfRWE5hqRuGJhJx/payments/failed,286,0,0
+1621913964594,306,LG-080-GET-summary?emailEncrypted,200,OK,Test-Login 1-1,text,true,,832,2775,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/summary?emailEncrypted=OWVZbTBkRAN8-Fu_TVH-ZMs38nUIrO0VtFwp4isZMFY=,306,0,0
+1621913965665,284,LG-090-GET-customers/customerId,200,OK,Test-Login 1-1,text,true,,1481,2712,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/34,284,0,0
+1621913965950,276,LG-100-GET-applicants/id,200,OK,Test-Login 1-1,text,true,,1942,2716,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/34,276,0,0
+1621913966227,258,LG-110-GET-applicants/popup/uuid,200,OK,Test-Login 1-1,text,true,,595,2756,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/popup/b07e44b3-bb95-4d95-8205-06f1e81af479,258,0,0
+1621913966487,295,LG-120-GET-missed-payment-time?customerUuid,200,OK,Test-Login 1-1,text,true,,553,2777,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/missed-payment-time?customerUuid=ea38b7f7-9d33-426d-8935-e6a81ed674e3,295,0,0
+1621913966784,259,LG-130-GET-customers/popup/customerId,200,OK,Test-Login 1-1,text,true,,666,2718,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/popup/34,259,0,0
+1621914005280,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-2,text,true,,0,0,1,1,null,0,0,0
+1621914005283,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-2,text,true,,0,0,1,1,null,0,0,0
+1621914005283,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-2,text,true,,0,0,1,1,null,0,0,0
+1621914055271,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-3,text,true,,0,0,1,1,null,0,0,0
+1621914055272,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-3,text,true,,0,0,1,1,null,0,0,0
+1621914055272,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-3,text,true,,0,0,1,1,null,0,0,0
+1621914055275,1145,AF-010-GET-Login,200,OK,Test-Login 1-3,text,true,,1758,671,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/login,1145,0,224
+1621914056423,921,AF-020-GET-maintenance/configuration,200,OK,Test-Login 1-3,text,true,,1757,859,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/origination/public/maintenance/configuration,921,0,0
+1621914057347,1061,LG-010-POST-check-lead-with-application,200,OK,Test-Login 1-3,text,true,,556,791,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/lead/check-lead-with-application,1061,0,807
+1621914058409,463,LG-020-POST-auth/oauth/token,200,OK,Test-Login 1-3,text,true,,4793,997,1,1,https://csc-perf-test-gateway.business.creditstrong.com/auth/oauth/token,463,0,0
+1621914059704,300,LG-030-GET-applicants/email,200,OK,Test-Login 1-3,text,true,,2279,2762,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/email?email=LtTwbwTWxAJzd4BK6ewgFFDDEy_OBFOZ9tQ4vYErwz0%3D,300,0,0
+1621914061031,256,LG-040-GET-maintenance/configuration,200,OK,Test-Login 1-3,text,true,,570,2735,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/maintenance/configuration,255,0,0
+1621914061288,296,LG-050-GET-noaa/latest/customerUUID,200,OK,Test-Login 1-3,text,true,,800,2754,1,1,https://csc-perf-test-gateway.business.creditstrong.com/core/documents/noaa/latest/6bd022a9-7f33-464a-95c5-983d768243e1,295,0,0
+1621914061585,366,LG-060-GET-dashboard,200,OK,Test-Login 1-3,text,true,,1091,2752,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/7N09r6-i6kZKoR0wPDqM7A==/dashboard,366,0,0
+1621914061953,411,LG-070-GET-payments/failed,200,OK,Test-Login 1-3,,true,,514,2798,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/Gdac0xT9ybwzs_XQY85VvDqz4rg_aJhQdJ0MrfFqDSCvHofvw-vnjPvLt_Z9b-wN/payments/failed,411,0,0
+1621914062365,343,LG-080-GET-summary?emailEncrypted,200,OK,Test-Login 1-3,text,true,,832,2775,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/summary?emailEncrypted=LtTwbwTWxAJzd4BK6ewgFFDDEy_OBFOZ9tQ4vYErwz0=,343,0,0
+1621914063507,284,LG-090-GET-customers/customerId,200,OK,Test-Login 1-3,text,true,,1481,2712,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/35,283,0,0
+1621914063792,268,LG-100-GET-applicants/id,200,OK,Test-Login 1-3,text,true,,1942,2716,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/35,268,0,0
+1621914064062,260,LG-110-GET-applicants/popup/uuid,200,OK,Test-Login 1-3,text,true,,595,2756,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/popup/42efeee3-0459-4d95-b0e2-fb5099612f63,259,0,0
+1621914064323,305,LG-120-GET-missed-payment-time?customerUuid,200,OK,Test-Login 1-3,text,true,,553,2777,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/missed-payment-time?customerUuid=6bd022a9-7f33-464a-95c5-983d768243e1,305,0,0
+1621914064629,259,LG-130-GET-customers/popup/customerId,200,OK,Test-Login 1-3,text,true,,666,2718,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/popup/35,258,0,0
+1621914105274,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-4,text,true,,0,0,1,1,null,0,0,0
+1621914105275,1,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-4,text,true,,0,0,1,1,null,0,0,0
+1621914105277,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-4,text,true,,0,0,1,1,null,0,0,0
+1621914155274,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-5,text,true,,0,0,1,1,null,0,0,0
+1621914155276,1,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-5,text,true,,0,0,1,1,null,0,0,0
+1621914155277,0,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-5,text,true,,0,0,1,1,null,0,0,0
+1621914155279,1073,AF-010-GET-Login,200,OK,Test-Login 1-5,text,true,,1758,671,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/login,1072,0,232
+1621914156355,842,AF-020-GET-maintenance/configuration,200,OK,Test-Login 1-5,text,true,,1757,859,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/origination/public/maintenance/configuration,841,0,0
+1621914157199,1042,LG-010-POST-check-lead-with-application,200,OK,Test-Login 1-5,text,true,,556,791,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/lead/check-lead-with-application,1041,0,794
+1621914158242,455,LG-020-POST-auth/oauth/token,200,OK,Test-Login 1-5,text,true,,4793,997,1,1,https://csc-perf-test-gateway.business.creditstrong.com/auth/oauth/token,454,0,0
+1621914159477,283,LG-030-GET-applicants/email,200,OK,Test-Login 1-5,text,true,,2279,2762,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/email?email=bR9QZqO4c5mrg4R7I1l65MpZrtSHcV0Ux5rUnoym-V0%3D,283,0,0
+1621914160809,246,LG-040-GET-maintenance/configuration,200,OK,Test-Login 1-5,text,true,,570,2735,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/maintenance/configuration,245,0,0
+1621914161056,253,LG-050-GET-noaa/latest/customerUUID,200,OK,Test-Login 1-5,text,true,,800,2754,1,1,https://csc-perf-test-gateway.business.creditstrong.com/core/documents/noaa/latest/8d3be4f1-1c7f-4876-a19c-b9853d5fdc30,252,0,0
+1621914161310,347,LG-060-GET-dashboard,200,OK,Test-Login 1-5,text,true,,1095,2752,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/EHLtO56IkGEJlZa8DplVcg==/dashboard,346,0,0
+1621914161658,287,LG-070-GET-payments/failed,200,OK,Test-Login 1-5,,true,,514,2798,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/ihckHJLGGqZV_pjBCUv5UFChIsxFNab6nsyOJ7rP4i_MYuWcB3_9UCNNEziCnGFG/payments/failed,287,0,0
+1621914161947,335,LG-080-GET-summary?emailEncrypted,200,OK,Test-Login 1-5,text,true,,831,2775,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/summary?emailEncrypted=bR9QZqO4c5mrg4R7I1l65MpZrtSHcV0Ux5rUnoym-V0=,334,0,0
+1621914163083,275,LG-090-GET-customers/customerId,200,OK,Test-Login 1-5,text,true,,1481,2712,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/36,275,0,0
+1621914163359,259,LG-100-GET-applicants/id,200,OK,Test-Login 1-5,text,true,,1942,2716,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/36,258,0,0
+1621914163618,247,LG-110-GET-applicants/popup/uuid,200,OK,Test-Login 1-5,text,true,,595,2756,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/popup/842e9086-d428-4b95-b9f1-9ffe81585e54,246,0,0
+1621914163866,282,LG-120-GET-missed-payment-time?customerUuid,200,OK,Test-Login 1-5,text,true,,553,2777,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/missed-payment-time?customerUuid=8d3be4f1-1c7f-4876-a19c-b9853d5fdc30,281,0,0
+1621914164149,248,LG-130-GET-customers/popup/customerId,200,OK,Test-Login 1-5,text,true,,666,2718,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/popup/36,248,0,0
+1621914205272,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-6,text,true,,0,0,1,1,null,0,0,0
+1621914205273,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-6,text,true,,0,0,1,1,null,0,0,0
+1621914205274,2,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-6,text,true,,0,0,1,1,null,0,0,0
+1621914205281,959,AF-010-GET-Login,200,OK,Test-Login 1-6,text,true,,1758,671,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/login,958,0,116
+1621914206243,843,AF-020-GET-maintenance/configuration,200,OK,Test-Login 1-6,text,true,,1757,859,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/origination/public/maintenance/configuration,843,0,0
+1621914207087,983,LG-010-POST-check-lead-with-application,200,OK,Test-Login 1-6,text,true,,556,791,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/lead/check-lead-with-application,983,0,738
+1621914208071,456,LG-020-POST-auth/oauth/token,200,OK,Test-Login 1-6,text,true,,4793,997,1,1,https://csc-perf-test-gateway.business.creditstrong.com/auth/oauth/token,455,0,0
+1621914209398,296,LG-030-GET-applicants/email,200,OK,Test-Login 1-6,text,true,,2279,2762,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/email?email=93m-lLXSjWM5oa9_nficYuoGFLJFAx9HSK4fm7oWSco%3D,296,0,0
+1621914210837,247,LG-040-GET-maintenance/configuration,200,OK,Test-Login 1-6,text,true,,570,2735,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/maintenance/configuration,247,0,0
+1621914211084,256,LG-050-GET-noaa/latest/customerUUID,200,OK,Test-Login 1-6,text,true,,800,2754,1,1,https://csc-perf-test-gateway.business.creditstrong.com/core/documents/noaa/latest/a12e8380-9308-46ad-a4dd-22f07f3de204,255,0,0
+1621914211341,360,LG-060-GET-dashboard,200,OK,Test-Login 1-6,text,true,,1095,2752,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/x0BKr6LWFsSTjewKroiZGA==/dashboard,360,0,0
+1621914211703,274,LG-070-GET-payments/failed,200,OK,Test-Login 1-6,,true,,514,2798,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/kO0JmLQ1MC7swWc0TGYZxvxcyRjYbmt6bDeb5xOK86SMsoDLiMwMn7U5Rvp3jJI2/payments/failed,274,0,0
+1621914211978,319,LG-080-GET-summary?emailEncrypted,200,OK,Test-Login 1-6,text,true,,831,2775,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/summary?emailEncrypted=93m-lLXSjWM5oa9_nficYuoGFLJFAx9HSK4fm7oWSco=,319,0,0
+1621914213237,277,LG-090-GET-customers/customerId,200,OK,Test-Login 1-6,text,true,,1481,2712,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/37,277,0,0
+1621914213515,259,LG-100-GET-applicants/id,200,OK,Test-Login 1-6,text,true,,1942,2716,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/37,258,0,0
+1621914213775,250,LG-110-GET-applicants/popup/uuid,200,OK,Test-Login 1-6,text,true,,595,2756,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/popup/84465daf-0117-4be2-a45b-1aad439809a0,249,0,0
+1621914214026,272,LG-120-GET-missed-payment-time?customerUuid,200,OK,Test-Login 1-6,text,true,,553,2777,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/missed-payment-time?customerUuid=a12e8380-9308-46ad-a4dd-22f07f3de204,271,0,0
+1621914214299,253,LG-130-GET-customers/popup/customerId,200,OK,Test-Login 1-6,text,true,,666,2718,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/popup/37,252,0,0
+1621914255273,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-7,text,true,,0,0,1,1,null,0,0,0
+1621914255274,1,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-7,text,true,,0,0,1,1,null,0,0,0
+1621914255276,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-7,text,true,,0,0,1,1,null,0,0,0
+1621914305274,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-8,text,true,,0,0,1,1,null,0,0,0
+1621914305277,1,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-8,text,true,,0,0,1,1,null,0,0,0
+1621914305278,1,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-8,text,true,,0,0,1,1,null,0,0,0
+1621914305281,1014,AF-010-GET-Login,200,OK,Test-Login 1-8,text,true,,1758,671,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/login,1014,0,170
+1621914306296,855,AF-020-GET-maintenance/configuration,200,OK,Test-Login 1-8,text,true,,1757,859,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/origination/public/maintenance/configuration,854,0,0
+1621914307151,1161,LG-010-POST-check-lead-with-application,200,OK,Test-Login 1-8,text,true,,556,791,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/lead/check-lead-with-application,1161,0,880
+1621914308312,489,LG-020-POST-auth/oauth/token,200,OK,Test-Login 1-8,text,true,,4819,1001,1,1,https://csc-perf-test-gateway.business.creditstrong.com/auth/oauth/token,488,0,0
+1621914309942,325,LG-030-GET-applicants/email,200,OK,Test-Login 1-8,text,true,,2289,2773,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/email?email=W5EL8HC5X0MX3rCPfWaP69yiyCQe-cAg1HoLudok2lY%3D,325,0,0
+1621914311667,280,LG-040-GET-maintenance/configuration,200,OK,Test-Login 1-8,text,true,,570,2746,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/maintenance/configuration,280,0,0
+1621914311948,333,LG-050-GET-noaa/latest/customerUUID,200,OK,Test-Login 1-8,text,true,,800,2765,1,1,https://csc-perf-test-gateway.business.creditstrong.com/core/documents/noaa/latest/fbd8bba3-873e-4c6f-88b8-bdafa49132ee,333,0,0
+1621914312281,454,LG-060-GET-dashboard,200,OK,Test-Login 1-8,text,true,,1094,2763,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/NNpKMkQgjXWTz0wMDhKrUg==/dashboard,454,0,0
+1621914312736,321,LG-070-GET-payments/failed,200,OK,Test-Login 1-8,,true,,514,2809,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/n2Tkt8Nt6_WaxiDr_R0MAUt6Irz4NOPfM5Me0AcIBrUO9miNvZg6r08Ux546ve7g/payments/failed,321,0,0
+1621914313058,349,LG-080-GET-summary?emailEncrypted,200,OK,Test-Login 1-8,text,true,,835,2786,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/summary?emailEncrypted=W5EL8HC5X0MX3rCPfWaP69yiyCQe-cAg1HoLudok2lY=,349,0,0
+1621914314482,300,LG-090-GET-customers/customerId,200,OK,Test-Login 1-8,text,true,,1487,2725,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/1902,300,0,0
+1621914314783,291,LG-100-GET-applicants/id,200,OK,Test-Login 1-8,text,true,,1948,2729,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/1920,291,0,0
+1621914315075,280,LG-110-GET-applicants/popup/uuid,200,OK,Test-Login 1-8,text,true,,595,2767,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/popup/9fad816d-0d73-4c19-9763-3dff4646ee45,280,0,0
+1621914315355,297,LG-120-GET-missed-payment-time?customerUuid,200,OK,Test-Login 1-8,text,true,,553,2788,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/missed-payment-time?customerUuid=fbd8bba3-873e-4c6f-88b8-bdafa49132ee,297,0,0
+1621914315652,283,LG-130-GET-customers/popup/customerId,200,OK,Test-Login 1-8,text,true,,666,2731,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/popup/1902,282,0,0
+1621914355263,0,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-9,text,true,,0,0,1,1,null,0,0,0
+1621914355263,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-9,text,true,,0,0,1,1,null,0,0,0
+1621914355264,0,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-9,text,true,,0,0,1,1,null,0,0,0
+1621914405261,1,JSR223 Sampler-FunctionUtils,200,OK,Test-Login 1-10,text,true,,0,0,1,1,null,0,0,0
+1621914405263,0,TEST-01-BUSINESS-LOGIN-FLOW,200,OK,Test-Login 1-10,text,true,,0,0,1,1,null,0,0,0
+1621914405263,2,JSR223 Sampler - SET-ALL-SWITCH,200,OK,Test-Login 1-10,text,true,,0,0,1,1,null,0,0,0
+1621914405267,2036,AF-010-GET-Login,200,OK,Test-Login 1-10,text,true,,1745,671,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/login,2036,0,158
+1621914407304,901,AF-020-GET-maintenance/configuration,200,OK,Test-Login 1-10,text,true,,1756,859,1,1,https://csc-perf-test-customer-ui.business.creditstrong.com/origination/public/maintenance/configuration,900,0,0
+1621914408207,1029,LG-010-POST-check-lead-with-application,200,OK,Test-Login 1-10,text,true,,556,791,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/lead/check-lead-with-application,1029,0,782
+1621914409236,452,LG-020-POST-auth/oauth/token,200,OK,Test-Login 1-10,text,true,,4819,1001,1,1,https://csc-perf-test-gateway.business.creditstrong.com/auth/oauth/token,452,0,0
+1621914410755,290,LG-030-GET-applicants/email,200,OK,Test-Login 1-10,text,true,,2289,2773,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/email?email=pwZQHmyhkWXeioJ0WOm5nQ7804ZWvl6I-ZyXdCJFujk%3D,290,0,0
+1621914412338,248,LG-040-GET-maintenance/configuration,200,OK,Test-Login 1-10,text,true,,570,2746,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/public/maintenance/configuration,247,0,0
+1621914412587,254,LG-050-GET-noaa/latest/customerUUID,200,OK,Test-Login 1-10,text,true,,800,2765,1,1,https://csc-perf-test-gateway.business.creditstrong.com/core/documents/noaa/latest/c7b510e5-adcd-441b-a108-c90c1da73922,254,0,0
+1621914412842,456,LG-060-GET-dashboard,200,OK,Test-Login 1-10,text,true,,1094,2763,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/ncTIzJUIkoq_QMcdW8imoQ==/dashboard,456,0,0
+1621914413299,292,LG-070-GET-payments/failed,200,OK,Test-Login 1-10,,true,,514,2809,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/customers/qv0rGUPj2BJuczY112u01ZDzSBisAbhZeebhcsnn9IgeS3F-pXNxHlc6mssOLuCN/payments/failed,292,0,0
+1621914413592,305,LG-080-GET-summary?emailEncrypted,200,OK,Test-Login 1-10,text,true,,835,2786,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/summary?emailEncrypted=pwZQHmyhkWXeioJ0WOm5nQ7804ZWvl6I-ZyXdCJFujk=,305,0,0
+1621914415064,265,LG-090-GET-customers/customerId,200,OK,Test-Login 1-10,text,true,,1490,2725,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/1903,264,0,0
+1621914415330,257,LG-100-GET-applicants/id,200,OK,Test-Login 1-10,text,true,,1948,2729,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/1923,257,0,0
+1621914415588,249,LG-110-GET-applicants/popup/uuid,200,OK,Test-Login 1-10,text,true,,595,2767,1,1,https://csc-perf-test-gateway.business.creditstrong.com/origination/applicants/popup/eb5acc69-d0e9-4f61-add9-d035dc32b19f,249,0,0
+1621914415838,328,LG-120-GET-missed-payment-time?customerUuid,200,OK,Test-Login 1-10,text,true,,553,2788,1,1,https://csc-perf-test-gateway.business.creditstrong.com/account/accounts/missed-payment-time?customerUuid=c7b510e5-adcd-441b-a108-c90c1da73922,327,0,0
+1621914416167,249,LG-130-GET-customers/popup/customerId,200,OK,Test-Login 1-10,text,true,,666,2731,1,1,https://csc-perf-test-gateway.business.creditstrong.com/customer/customers/popup/1903,249,0,0
